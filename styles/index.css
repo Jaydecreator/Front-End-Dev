@@ -322,9 +322,10 @@ a{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    min-height: 400px;
-    align-items: center;
+    min-height: 300px;
+    /* align-items: center; */
     margin-bottom: 20px;
+    /* align-content: stretch; */
 }
 #service-section .section-header>h2{
     color: var(--dark-green-blue);
@@ -338,7 +339,7 @@ a{
     background-color: white;
     max-width: 250px;
     width: 100%;
-    height: fit-content;
+    /* height: fit-content; */
     padding: 20px 10px;
     margin-bottom: 20px;
     margin: 20px;

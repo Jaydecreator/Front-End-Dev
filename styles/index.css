@@ -423,6 +423,8 @@ a{
     margin: 0px 20px;
     color: white;
     font-size: 18px;
+    white-space: nowrap;
+    /* word-wrap: break-word; */
 }
 footer{
     background-color: var(--light-blue);
